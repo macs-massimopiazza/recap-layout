@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
-.section1 {
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    border: 1px solid red;
+    flex-wrap: wrap;
 }
 
 .section1 span{
@@ -17,7 +20,7 @@
 
 .section1 .col {
     width: calc(100% / 4);
-    border: 1px solid violet;
+    background-color: cyan;
 }
 
 .section2 {
@@ -25,11 +28,9 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px 50px;
-    border: 1px solid blue;
 }
 
 .col-section2 {
-    border: 1px solid cadetblue;
     width: calc(100% / 3);
 }
 
@@ -37,10 +38,8 @@
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    border: 1px solid green;
 }
 
 .section3 .section3-col {
     width: calc(100% / 4);
-    border: 1px solid orangered;
 }
